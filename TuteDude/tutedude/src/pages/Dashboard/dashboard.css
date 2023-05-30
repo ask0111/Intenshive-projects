@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Nanum+Myeongjo&family=Poppins&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap');
+
+.lt-sc-container {
+    box-shadow: 0 3px 100px 0 #E5E5E5;
+    width: 45%;
+    padding: 0px 20px 32px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    filter: drop-shadow(0 0 0.75rem rgba(94, 94, 94, 0.1));
+    z-index: -1;
+    /* margin: auto; */
+    margin-top: 20px;
+}
+
+.lt-sc-ct-refs {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.lt-sc-ct-refs p {
+    font-size: 14px;
+    font-size: 0.912rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(128, 0, 128, 1);
+
+}
+
+ .lt-sc-ct-refs div{
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    
+}
+
+
+
+.lt-sc-ct-refs-left {}
+
+.lt-sc-ct-refs-mid {}
+
+.lt-sc-ct-refs-right {}
+
+.lt-sc-ct-btn {
+    background-color: rgba(128, 0, 128, 1);
+    color: white;
+    padding: 8px, 16px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: 850px) {
+    .lt-sc-container{
+        width: 90%;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Nanum+Myeongjo&family=Poppins&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap');
+
+.rt-sc-container {
+    width: 300px;
+    /* margin: auto; */
+}
+
+.rt-sc-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(128, 0, 128, 1);
+}
+
+.rt-sc-ct-refcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 358px;
+    width: 22rem;
+    border: 1.5px solid;
+    border-image: linear-gradient(270deg, #800080 0%, #FF864C 100%) 10;
+    border-radius: 10px;
+
+}
+
+.rt-sc-ct-refcode input {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: rgba(128, 0, 128, 1);
+}
+
+@media screen and (max-width: 450px) {
+    .rt-sc-container, .rt-sc-ct-refcode {
+        width: 100%;
+    }
+    .rt-sc-ct-refcode input {
+       text-align: center;
+        letter-spacing: 1em;
+        
+    }
+    
+}
