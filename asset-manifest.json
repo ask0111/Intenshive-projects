@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Intenshive-projects/static/css/main.07b8f4dc.css",
+    "main.js": "/Intenshive-projects/static/js/main.35fc33f8.js",
+    "index.html": "/Intenshive-projects/index.html",
+    "main.07b8f4dc.css.map": "/Intenshive-projects/static/css/main.07b8f4dc.css.map",
+    "main.35fc33f8.js.map": "/Intenshive-projects/static/js/main.35fc33f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07b8f4dc.css",
+    "static/js/main.35fc33f8.js"
+  ]
+}
