@@ -1,0 +1,97 @@
+.container{
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.ct-dummyText{
+    background-color: rgba(55, 114, 255, 1);
+    text-align: center;
+    padding: 1px;
+}
+
+.sc-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.sc-ct-right{
+    width: calc(100% - 254px);
+    border-left: 2px solid wheat;
+}
+.sc-ct-rt-mid{
+    width: 100%;
+    height: 91%;
+    display: flex;
+    justify-content: right;
+    border-top: 2px solid wheat;
+}
+
+.sc-ct-rt-md-todos{
+    width: 70%;
+    height: 91vh;
+    /* overflow-x: scroll; */
+}
+
+.sc-ct-rt-md-right{
+    position: relative;
+    border-left: 2px solid wheat;
+}
+
+.l-r{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 0% 50% 50% 0%;
+    cursor: pointer;
+}
+
+.r-l{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50% 0% 0% 50%;
+    cursor: pointer;
+}
+
+.display{
+    transition: width .2s;
+}
+.display2{
+    transition: width .2s;
+}
+
+
+@media screen and (max-width: 880px) {
+    .display{
+        position: absolute;
+        height: 100vh;
+        background-color: blue;
+    }
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .display2{
+        background-color: blue;
+        position: absolute;
+        right: 0;
+    }
+    
+}

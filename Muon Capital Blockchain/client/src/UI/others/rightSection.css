@@ -1,0 +1,48 @@
+.rt-sc-container{
+    min-width: 270px;
+    max-width: 100%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    /* color: white; */
+}
+
+.rt-sc-ct-editHeading{
+    width: 85%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.rt-sc-ct-editHeading i, .rt-sc-ct-editHeading p{
+    cursor: pointer;
+}
+
+.rt-sc-ct-edit-input{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rt-sc-ct-edit-input input, .rt-sc-ct-edit-input textarea, .rt-sc-ct-edit-input button{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(36, 39, 49, 1);
+}
+
+.rt-sc-ct-edit-input input{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.rt-sc-ct-edit-input textarea{
+    height: 80px;
+}
+
+.rt-sc-ct-edit-input button{
+    background-color: rgba(55, 114, 255, 1);
+    border: none;
+    cursor: pointer;
+}

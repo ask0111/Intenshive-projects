@@ -1,0 +1,89 @@
+.md-sc-container {
+    min-width: 280px;
+    max-width: 100%;
+    width: 100%;
+    margin: 16px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    /* border: 1px solid red; */
+
+}
+
+.md-sc-container::-webkit-scrollbar,
+.md-sc-ct-todolist1::-webkit-scrollbar {
+    display: none;
+}
+
+
+.md-sc-ct-todolist1 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-width: 270px;
+    margin: 4px;
+    margin-top: -5px;
+    scrollbar-width: none;
+}
+
+
+.md-sc-ct-tl-box1 {
+    background-color: rgba(36, 39, 49, 1);
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.md-sc-ct-tl-box1 p{
+    width: calc(100% - 20.5px);
+    background-color: rgba(36, 39, 49, 1);
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+.md-sc-ct-todolist {
+    margin: 10px 4px;
+    min-width: 205px;
+    height: 20px;
+    /* border: 1px solid red; */
+}
+
+.md-sc-ct-todolist0 {
+    display: grid;
+    justify-self: right;
+}
+
+.md-sc-ct-tl-box {
+    position: relative;
+    background-color: rgba(36, 39, 49, 1);
+    border-radius: 10px;
+    text-align: left;
+    right: 0;
+    /* border: 1px solid red; */
+}
+
+
+.md-sc-ct-tl-box input {
+    width: 100%;
+    background-color: rgba(36, 39, 49, 1);
+    border-radius: 10px;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+}
+
+
+.md-sc-ct-tl-box i {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 100%;
+    padding: 2px;
+    float: right;
+    right: 10px;
+    top: 6px;
+    background-color: rgba(53, 57, 69, 1);
+    color: #fff;
+}

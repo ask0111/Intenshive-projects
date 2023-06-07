@@ -1,0 +1,71 @@
+.ts-in-container{
+    width: 100%;
+    background-color: rgba(25, 27, 32, 1);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.ts-in-ct-part1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    /* border: 1px solid red; */
+    padding: 0;
+}
+.ts-in-ct-part1 input, .ts-in-ct-part1 p{
+    width: 86%;
+    background-color: rgba(25, 27, 32, 1);
+    /* border: 1px solid red; */
+    border: none;
+    padding: 0;
+    margin: 0 8px;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+.bi-plus, .bi-pencil{
+    cursor: pointer;
+}
+.bi-bag-fill, .bi-plus, .bi-pencil{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    /* padding: 4px; */
+    font-weight: 900;
+    background-color: rgba(53, 57, 69, 1);
+    color: #fff;
+}
+.bi-bag-fill{
+    /* padding: 2px 6px; */
+    font-size: 10px;
+    background-color: rgba(187, 181, 226, 1);
+}
+
+.bi-pencil{
+    padding:4px 6px;
+    font-size: 14px;
+
+}
+
+.ts-in-ct-part2{
+
+}
+
+.ts-in-ct-part2 textarea, .ts-in-ct-part2 p{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(25, 27, 32, 1);
+    border: none;
+    color: #fff;
+}
+
+.styleBorder{
+    border-left: 3px solid rgba(0, 10, 255, 1);
+}

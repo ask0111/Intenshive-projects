@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Nanum+Myeongjo&family=Poppins:wght@200;400&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap');
+
+.lt-sc-container{
+    min-width: 250px;
+    max-width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+.lt-sc-ct-upperPart{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.lt-sc-ct-up-top, .lt-sc-ct-up-top-title, .lt-sc-ct-up-bm-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lt-sc-ct-up-top-title{
+width: auto;
+margin: 0;
+}
+
+.lt-sc-ct-up-top-title p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color:rgba(55, 114, 255, 1);
+    cursor: pointer;
+}
+
+.lt-sc-ct-up-top-back{
+    cursor: pointer;
+    font-size: larger;
+}
+
+.lt-sc-ct-up-bottom{
+
+}
+
+.lt-sc-ct-up-bm-section i{
+    color: rgba(128, 129, 145, 1);
+}
+.lt-sc-ct-up-bm-section0 i{
+    color: #fff;
+}
+.lt-sc-ct-up-bm-section0{
+    color: #fff;
+    padding: 0px 0 0 20px;
+    border-radius: 10px;
+    background-color: rgba(53, 57, 69, 1);
+}
+.lt-sc-ct-up-bm-section{
+    justify-content: flex-start;
+}
+
+.lt-sc-ct-up-bm-section p{
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+/* Blow Part CSS */
+
+.lt-sc-ct-blowPart{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lt-sc-ct-bp-price, .lt-sc-ct-bp-price button, .lt-sc-ct-bp-theme i, .lt-sc-ct-bp-theme{
+    display: flex;
+    /* justify-content: center; */
+    margin:6px 3px;
+}
+
+.lt-sc-ct-bp-price button{
+    padding: 4px 8px;
+    border-radius: 15%;
+    color: #fff;
+}
+.lt-sc-ct-bp-price button:nth-child(1){
+    background-color: rgba(53, 57, 69, 1);
+}
+.lt-sc-ct-bp-price button:nth-child(2){
+    color: blue;
+    background-color: rgba(163, 227, 255, 1)    ;
+}
+.lt-sc-ct-bp-price button b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color:rgba(55, 114, 255, 1);
+}
+
+.lt-sc-ct-bp-theme{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    /* border: 1px solid red; */
+    gap: 5px;
+    
+}
+
+.theme{
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:13px;
+    background-color: rgba(53, 57, 69, 1);
+    border-radius: 10px;
+    height: 18px;
+    padding: 2px;
+}
+
+.theme p{
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 3px;
+    width: 17px;
+    height: 17px;
+    background-color: rgba(55, 114, 255, 1);
+    border-radius: 100%;
+    transition: left .3s;
+}
+
+
+
