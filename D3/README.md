@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+# Bar Chart
+
+>* Bar Chart Image
+
+![Capture](https://github.com/ask0111/Intenshive-projects/assets/88626935/8abffea3-942d-4a2c-aec0-0c0eaee8bde1)
+
+
+>* Bar Chart Code
 <html>
 
 <head>
